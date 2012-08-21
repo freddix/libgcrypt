@@ -1,0 +1,14 @@
+--- libgcrypt-1.2.4/src/libgcrypt-config.in.orig	2007-02-13 11:51:45.000000000 +0100
++++ libgcrypt-1.2.4/src/libgcrypt-config.in	2007-02-13 11:52:11.000000000 +0100
+@@ -137,11 +137,6 @@
+     libdirs=""
+     libs_final="$libs"
+ 
+-    # Set up `libdirs'.
+-    if test "x$libdir" != "x/usr/lib" -a "x$libdir" != "x/lib"; then
+-	libdirs="-L$libdir"
+-    fi
+-
+     # Set up `libs_final'.
+     libs_final="$libs_final $gpg_error_libs"
+ 

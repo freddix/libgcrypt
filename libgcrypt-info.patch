@@ -1,0 +1,14 @@
+--- libgcrypt-1.2.2/doc/gcrypt.texi.orig	2005-07-29 15:45:43.000000000 +0200
++++ libgcrypt-1.2.2/doc/gcrypt.texi	2005-10-06 11:48:00.000000000 +0200
+@@ -23,9 +23,9 @@
+ @end quotation
+ @end copying
+ 
+-@dircategory GNU Libraries
++@dircategory Libraries:
+ @direntry
+-* libgcrypt: (gcrypt).  Cryptographic function library.
++* libgcrypt: (gcrypt).			Cryptographic function library
+ @end direntry
+ 
+ 
