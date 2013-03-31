@@ -1,11 +1,11 @@
 Summary:	Cryptographic library based on the code from GnuPG
 Name:		libgcrypt
-Version:	1.5.0
-Release:	2
+Version:	1.5.1
+Release:	1
 License:	LGPL
 Group:		Libraries
 Source0:	ftp://ftp.gnupg.org/gcrypt/libgcrypt/%{name}-%{version}.tar.bz2
-# Source0-md5:	693f9c64d50c908bc4d6e01da3ff76d8
+# Source0-md5:	5be3cc6e105db5d64c318127a5c10c94
 Patch0:		%{name}-config.patch
 URL:		http://www.gnu.org/directory/security/libgcrypt.html
 BuildRequires:	autoconf
