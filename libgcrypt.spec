@@ -1,11 +1,11 @@
 Summary:	Cryptographic library based on the code from GnuPG
 Name:		libgcrypt
-Version:	1.5.3
+Version:	1.6.0
 Release:	1
 License:	LGPL
 Group:		Libraries
 Source0:	ftp://ftp.gnupg.org/gcrypt/libgcrypt/%{name}-%{version}.tar.bz2
-# Source0-md5:	993159b2924ae7b0e4eaff0743c2db35
+# Source0-md5:	984079ff16fb644dd80d4dddc5fc1a73
 Patch0:		%{name}-config.patch
 URL:		http://www.gnu.org/directory/security/libgcrypt.html
 BuildRequires:	autoconf
@@ -67,8 +67,10 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS THANKS NEWS README ChangeLog
 %attr(755,root,root) %{_bindir}/dumpsexp
 %attr(755,root,root) %{_bindir}/hmac256
+%attr(755,root,root) %{_bindir}/mpicalc
 %attr(755,root,root) %ghost %{_libdir}/libgcrypt.so.??
 %attr(755,root,root) %{_libdir}/libgcrypt.so.*.*.*
+%{_mandir}/man1/hmac256.1*
 
 %files devel
 %defattr(644,root,root,755)
