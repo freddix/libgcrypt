@@ -1,11 +1,11 @@
 Summary:	Cryptographic library based on the code from GnuPG
 Name:		libgcrypt
-Version:	1.6.0
+Version:	1.6.1
 Release:	1
 License:	LGPL
 Group:		Libraries
 Source0:	ftp://ftp.gnupg.org/gcrypt/libgcrypt/%{name}-%{version}.tar.bz2
-# Source0-md5:	984079ff16fb644dd80d4dddc5fc1a73
+# Source0-md5:	a5a5060dc2f80bcac700ab0236ea47dc
 Patch0:		%{name}-config.patch
 URL:		http://www.gnu.org/directory/security/libgcrypt.html
 BuildRequires:	autoconf
