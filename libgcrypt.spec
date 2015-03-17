@@ -1,12 +1,12 @@
 # based on PLD Linux spec git://git.pld-linux.org/packages/libgcrypt.spec
 Summary:	Cryptographic library based on the code from GnuPG
 Name:		libgcrypt
-Version:	1.6.2
+Version:	1.6.3
 Release:	1
 License:	LGPL
 Group:		Libraries
 Source0:	ftp://ftp.gnupg.org/gcrypt/libgcrypt/%{name}-%{version}.tar.bz2
-# Source0-md5:	b54395a93cb1e57619943c082da09d5f
+# Source0-md5:	4262c3aadf837500756c2051a5c4ae5e
 Patch0:		%{name}-config.patch
 URL:		http://www.gnu.org/directory/security/libgcrypt.html
 BuildRequires:	autoconf
